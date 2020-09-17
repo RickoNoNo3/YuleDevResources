@@ -82,7 +82,7 @@ Flutter和Dart应用程序, 推荐使用 **IntelliJ IDEA** 或 **Visual Studio C
 
 #### (1) 一个简单的Hello程序
 
-- 此任务的目的是强制学习IDE配置, 同时复习程序执行的基础知识.
+- 此任务的目的是强制学习IDE配置, 学习简单的字符串处理, 同时复习程序执行的基础知识.
 
 通过**命令行参数**传递一个英文字符串, 程序打印出**单词首字母大写, 其余字母小写**的字符串`Hello <arg>.`
 
@@ -127,7 +127,7 @@ Hello Doudou.
 
 读取一颗二叉树的先序和中序遍历序列(节点编号), 输出其后序遍历序列和层次遍历序列.
 
-要求**封装为二叉树类`BinTree`, 在扩展构造函数`BinTree.ordered({List<int> preOrdered, List<int> inOrdered})`中传递先序和中序遍历序列, 在类内getter方法`List<int> get PostOrdered`中导出后序遍历序列, 导出层次遍历序列也类似**.
+要求**封装为二叉树类`BinTree`, 在扩展构造函数`BinTree.ordered({List<int> preOrdered, List<int> inOrdered})`中传递先序和中序遍历序列, 在类内getter方法`List<int> get postOrdered`中导出后序遍历序列, 导出层次遍历序列也类似**.
 
 我们约定节点编号是**连续的正整数**, 并且**不超过100个**.
 
@@ -308,16 +308,16 @@ class MyHomePage extends StatelessWidget {
 > ```dart
 > MyDateTime now;
 > startRefresh() {
->   setState(() {
->     now = new MyDateTime();
->   });
->   sleep(Duration(milliseconds: 200));
->   Future(startRefresh); // 在一个新事件中再次执行本函数(注意前面已经给过延迟了)
+>     setState(() {
+>        now = new MyDateTime();
+>     });
+>     sleep(Duration(milliseconds: 200));
+>     Future(startRefresh); // 在一个新事件中再次执行本函数(注意前面已经给过延迟了)
 > }
 > @override
 > void initState() { // 重写State的初始化方法, 把这个无尽循环塞进去
->   startRefresh();
->   super.initState();
+>     startRefresh();
+>     super.initState();
 > }
 > ```
 >
@@ -351,7 +351,7 @@ class MyHomePage extends StatelessWidget {
 
 #### (5) [可选]一棵二叉树
 
-- 此任务的目的是练习Canvas图形渲染, 并增强字符串处理能力, 练习表单处理, 更深入地了解Flutter组件机制.
+- 此任务的目的是练习Canvas图形渲染, 并增强字符串处理能力, 更深入地了解Flutter组件机制.
 
 将Dart练习中的二叉树移植到Flutter来, 做图形化, 放入`Page3`.
 
@@ -359,11 +359,11 @@ class MyHomePage extends StatelessWidget {
 
 示例界面如下:
 
-<img src="Flutter.resources/image-20200917183311137.png" alt="image-20200917183311137" style="zoom:50%;" /><img src="Flutter.resources/image-20200917183414610.png" alt="image-20200917183414610" style="zoom:50%;" />
+<img src="Flutter.resources/image-20200917183311137.png" alt="image-20200917183311137" style="zoom:50%;" /><img src="Flutter.resources/image-20200917230205290.png" alt="image-20200917230205290" style="zoom:50%;" />
 
 > 提示0: 可以使用[此教程](https://www.jianshu.com/p/7405157f7546)入门Canvas, [此教程](https://www.jianshu.com/p/8a3bdd37037e)绘制文本. 当然不够, 还需要自己去摸索.
 >
-> 提示1: 自定义一个Painter的构造函数, 即可告诉这个Painter他应该画哪些点.
+> 提示1: 自定义一个Painter的构造函数, 即可告诉这个Painter他应该画哪些节点.
 >
 > 提示2: 一条线是否显示, 直接取决于他所连接的子节点是否显示.
 >
