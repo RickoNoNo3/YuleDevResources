@@ -7,7 +7,7 @@
 |               文档列表                |
 | :-----------------------------------: |
 |             README(本文)              |
-| [Flutter培训指引](Flutter/Flutter.md) |
+| [Flutter入门培训](Flutter/Flutter.md) |
 |                                       |
 
 
