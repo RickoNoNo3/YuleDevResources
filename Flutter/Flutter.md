@@ -184,7 +184,6 @@ void main(List arguments) {
 
 **优质资源**:
 
-- 
 - [Flutter完整实战详解(掘金)](Flutter 完整实战详解)
 - [闲鱼技术的文章(掘金)](https://juejin.im/user/1257497031878408/posts)
 - [开源框架、项目和学习资料汇总](http://www.cocoachina.com/cms/wap.php?action=article&id=25856) (大多为英文, 内部链接需要翻墙)
@@ -257,11 +256,12 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
+  var page = Page1();      // 👈 注意这里
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: Page1.appBar, // 👈 注意这里
-      body: Page1(),        // 👈 注意这里
+      appBar: page.appBar, // 👈 注意这里
+      body: page,          // 👈 注意这里
     );
   }
 }
