@@ -1,12 +1,16 @@
 # YuleDevResources
 
-[渔乐科技](https://yulekeji.cn)开发部门专用培训资料
+**[渔乐科技](https://yulekeji.cn)开发部门专用培训资料**
+
+提示: **git clone到本地, 使用[Typora](https://typora.io/)打开, 阅读效果更佳**
 
 |           文档列表            |
 | :---------------------------: |
 | [Flutter](Flutter/Flutter.md) |
 |                               |
 |                               |
+
+
 
 ## 关于学习的一点建议
 
