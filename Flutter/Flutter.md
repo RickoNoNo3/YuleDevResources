@@ -269,7 +269,7 @@ class MyHomePage extends StatelessWidget {
 
 接下来, 仿照`page1.dart`, 为`page2.dart`和`page3.dart`随意填充两个无状态组件, 分别命名为`Page2`和`Page3`. 将`main.dart`中的`MyHomePage`组件**更改为有状态的`StatefulWidget`**.
 
-在新的`MyHomePage`的`State`类中添加两个私有属性: **`List<MyPageI> _pages=[Page1(), Page2(), Page3()]` 和 `int _active=0`**, **将`Scaffold`中的`appBar`和`body`替换为与这两个属性相关联的实现**.
+在新的`MyHomePage`的`State`类中添加两个私有属性: **`List<MyPageI> _pages=[Page1(), Page2(), Page3()]` 和 `int _active=0`**, **将`Scaffold`中的`appBar`和`body`替换为与这两个属性相关联的实现**.
 
 给`Scaffold`的构造函数传入**`BottomNavigationBar`参数**, 构建一个导航栏, 并在适当时机(`onTap`时)**调用`setState()`方法**, 最终实现导航栏点按切换页面的功能.
 
@@ -418,5 +418,7 @@ class MyHomePage extends StatelessWidget {
 # 脚注
 
 [^Dart语言开发文档]: https://dart.cn/guides/
+
 [^Flutter官方文档]: [中文版(译制不全)](https://flutter.cn/docs/get-started/install)  [官方英文版(需要翻墙)](https://flutter.dev/docs/get-started/install)
+
 [^Flutter和Dart官方API文档]: <https://api.flutter-io.cn/> (此为镜像站)
