@@ -2,7 +2,7 @@
 
 **[渔乐科技](https://yulekeji.cn)开发部门专用培训资料**
 
-提示: **git clone(或者下载zip)到本地, 使用[Typora](https://typora.io/)打开, 阅读效果更佳**
+提示: **直接在github上观看, 排版比较凌乱, 也不支持某些Markdown扩展语法. 建议git clone(或者下载zip)到本地, 使用[Typora](https://typora.io/)打开, 阅读效果更佳.**
 
 |               文档列表                |
 | :-----------------------------------: |
