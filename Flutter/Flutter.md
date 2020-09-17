@@ -419,6 +419,6 @@ class MyHomePage extends StatelessWidget {
 
 [^Dart语言开发文档]: https://dart.cn/guides/
 
-[^Flutter官方文档]: [中文版(译制不全)](https://flutter.cn/docs/get-started/install)  [官方英文版(需要翻墙)](https://flutter.dev/docs/get-started/install)
+[^Flutter官方文档]: [中文版(译制不全)](https://flutter.cn/docs/get-started/install)-[官方英文版(需要翻墙)](https://flutter.dev/docs/get-started/install)
 
 [^Flutter和Dart官方API文档]: <https://api.flutter-io.cn/> (此为镜像站)
