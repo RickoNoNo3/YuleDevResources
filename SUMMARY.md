@@ -1,10 +1,12 @@
 # Table of contents
 
 * [YuleDevResources](README.md)
-* [Flutter](flutter/README.md)
-  * [Flutter](flutter/flutter.md)
 
-## Java <a id="java-1"></a>
+## Java
 
-* [瀚抒新后端\(Java\)开发技术指南](java-1/han-shu-xin-hou-duan-java-kai-fa-ji-shu-zhi-nan.md)
+* [瀚抒新后端\(Java\)开发技术指南](java/han-shu-xin-hou-duan-java-kai-fa-ji-shu-zhi-nan.md)
+
+## Flutter
+
+* [Flutter](flutter/flutter.md)
 
