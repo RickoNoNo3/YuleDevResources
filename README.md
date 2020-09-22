@@ -9,7 +9,7 @@
 |                       README(本文)                        |
 |       [Flutter入门培训](Flutter/Flutter入门培训.md)       |
 | [Java 开发技术指南](Java/瀚抒新后端(Java)开发技术指南.md) |
-|    [Java Spring入门培训](Java/Java Spring入门培训.md)     |
+|    [Java Spring入门培训](Java/Java-Spring入门培训.md)     |
 
 
 

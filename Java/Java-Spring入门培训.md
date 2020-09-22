@@ -1,6 +1,6 @@
 > 打开本文件有困难 或 阅读时无格式, 建议安装 **Typora**.
 
-# Java Spring入门培训
+# Java-Spring入门培训
 
 ## 〇. 前言
 
