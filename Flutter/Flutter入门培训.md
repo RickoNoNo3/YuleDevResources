@@ -12,13 +12,23 @@ Flutter 是 Google 开源的 UI 工具包, 帮助开发者通过一套代码库�
 
 这种情况可能不能迎合某些开发者所习惯的基于线性教程的通用学习方法, 他们需要改变在Flutter上的学习思路 -- 变成一个离散化的、**时刻从查阅资料中获取知识**的学习者, 或者考虑**在国外环境中寻找线性教程**. 如果你十分依赖视频教程, 也许去Google、YouTube而不是Bilibili或百度网盘, 收获会更大.
 
+### 任务评价指标(适用于Flutter和Dart)
+
+|   指标   | 占比 | 描述                                                         | 关联的属性         |
+| :------: | :--: | ------------------------------------------------------------ | ------------------ |
+| 可使用性 | 30%  | 需求中提及的功能的实现程度 + 处理极端案例、错误案例、攻击性案例的健壮程度 + 算法性能的优秀程度. | 功能               |
+| 可维护性 | 25%  | 自己与其他人看懂代码的方便程度 + 自己与其他人修改代码及查找BUG的方便程度 | 代码风格, 架构设计 |
+| 学习能力 | 25%  | 新知识的吸收速度 + 收集与利用资源的能力的程度                | 个人能力与习惯     |
+| 可扩展性 | 10%  | 在程序中加入新功能的方便程度                                 | 架构设计           |
+| 开发速度 | 10%  | 编写成品程序的速度 + 定位和修改BUG的速度                     | 个人能力与习惯     |
+
 ## 一. 环境安装
 
 ### 1. 墙外环境
 
 **任何一个程序员都应该时常处于或有能力在必要时处于墙外环境下**, 结合Flutter开发, 具体原因如下:
 
-2. Flutter和Dart相关的许多网站(包括[Flutter官网](http://flutter.dev/))都处于被屏蔽的状态, 这将给开发和资料获取带来肉眼可见的困难.
+1. Flutter和Dart相关的许多网站(包括[Flutter官网](http://flutter.dev/))都处于被屏蔽的状态, 这将给开发和资料获取带来肉眼可见的困难.
 2. 下载Android SDK和其它配套资源使用的Google服务器, 以及Android Studio和IntelliJ IDEA的插件服务器, 在国内环境下都不太稳定, 速度慢且容易下载失败.
 3. [github.io](https://www.github.io)处于被屏蔽状态, 而[github](https://github.com)、[stackoverflow](https://stackoverflow.com/)等网站连接速度很慢, 这对所有程序员来讲都是很大的阻碍. 尤其针对到了Flutter这种资料驱动型的新技术.
 4. 在墙外还可以通过Google和YouTube来获取其他语种开发者所拥有的更多资源, 比孤立的中文环境丰富不少.
@@ -161,6 +171,10 @@ void main(List arguments) {
 
 ### 1. 跟随学习资料入门Flutter开发
 
+**关注微信公众号**:
+
+- **谷歌开发者**
+
 **网课**:
 
 - [Flutter实战(电子书)](https://book.flutterchina.club/)
@@ -183,6 +197,10 @@ void main(List arguments) {
 - [Stackoverflow Flutter标签](https://stackoverflow.com/questions/tagged/flutter?tab=Votes)
 
 **优质资源**:
+
+- [Flutter学习资源推荐分享(CSDN)](https://blog.csdn.net/haha223545/article/details/102896660)
+
+- [一个大神的Flutter文章汇总(简书)](https://www.jianshu.com/p/ad3714e1bde8)
 
 - [Flutter完整实战详解(掘金)](https://juejin.im/collection/6845243771605499912)
 - [闲鱼技术的文章(掘金)](https://juejin.im/user/1257497031878408/posts)
@@ -210,7 +228,7 @@ void main(List arguments) {
 
 示例界面如下:
 
-<img src="Flutter.resources/image-20200917142849954.png" alt="image-20200917142849954" style="zoom:50%;" />
+<img src="Flutter入门培训.resources/image-20200917142849954.png" alt="image-20200917142849954" style="zoom:50%;" />
 
 #### (2) 一个可切换的导航栏
 
@@ -275,7 +293,7 @@ class MyHomePage extends StatelessWidget {
 
 示例界面如下:
 
-<img src="Flutter.resources/image-20200917152918414.png" alt="image-20200917152918414" style="zoom:40%;" /><img src="Flutter.resources/image-20200917152927541.png" alt="image-20200917152927541" style="zoom:40%;" /><img src="Flutter.resources/image-20200917152950742.png" alt="image-20200917152950742" style="zoom:40%;" />
+<img src="Flutter入门培训.resources/image-20200917152918414.png" alt="image-20200917152918414" style="zoom:40%;" /><img src="Flutter入门培训.resources/image-20200917152927541.png" alt="image-20200917152927541" style="zoom:40%;" /><img src="Flutter入门培训.resources/image-20200917152950742.png" alt="image-20200917152950742" style="zoom:40%;" />
 
 > 如遇到困难, 请寻找相关网课或资料自行学习.
 
@@ -289,7 +307,7 @@ class MyHomePage extends StatelessWidget {
 
 示例界面如下:
 
-<img src="Flutter.resources/image-20200917162310502.png" alt="image-20200917162310502" style="zoom:50%;" />
+<img src="Flutter入门培训.resources/image-20200917162310502.png" alt="image-20200917162310502" style="zoom:50%;" />
 
 > 以下内容是思路拓展:
 >
@@ -345,7 +363,7 @@ class MyHomePage extends StatelessWidget {
 
 示例界面如下:
 
-<img src="Flutter.resources/image-20200917170007248.png" alt="image-20200917170007248" style="zoom:50%;" />
+<img src="Flutter入门培训.resources/image-20200917170007248.png" alt="image-20200917170007248" style="zoom:50%;" />
 
 > 参考[此教程](https://www.jianshu.com/p/56695d4cbf17).
 
@@ -359,7 +377,7 @@ class MyHomePage extends StatelessWidget {
 
 示例界面如下:
 
-<img src="Flutter.resources/image-20200917183311137.png" alt="image-20200917183311137" style="zoom:50%;" /><img src="Flutter.resources/image-20200917230205290.png" alt="image-20200917230205290" style="zoom:50%;" />
+<img src="Flutter入门培训.resources/image-20200917183311137.png" alt="image-20200917183311137" style="zoom:50%;" /><img src="Flutter入门培训.resources/image-20200917230205290.png" alt="image-20200917230205290" style="zoom:50%;" />
 
 > 提示0: 可以使用[此教程](https://www.jianshu.com/p/7405157f7546)入门Canvas, [此教程](https://www.jianshu.com/p/8a3bdd37037e)绘制文本. 当然不够, 还需要自己去摸索.
 >
@@ -379,7 +397,7 @@ class MyHomePage extends StatelessWidget {
 
 示例界面如下(样式自拟):
 
-<img src="Flutter.resources/image-20200917195241007.png" alt="image-20200917195241007" style="zoom:50%;" /><img src="Flutter.resources/image-20200917195809533.png" alt="image-20200917195809533" style="zoom:50%;" />
+<img src="Flutter入门培训.resources/image-20200917195241007.png" alt="image-20200917195241007" style="zoom:50%;" /><img src="Flutter入门培训.resources/image-20200917195809533.png" alt="image-20200917195809533" style="zoom:50%;" />
 
 > 提示0: 可以保持MyHomePage不变, 在MyApp里多封装一些东西...
 >
