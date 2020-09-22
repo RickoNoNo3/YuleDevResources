@@ -256,6 +256,7 @@ Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来�
 **参考资料**:
 
 - [什么是controller/service/mapping?](https://blog.csdn.net/u011095110/article/details/86088976?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf)
+- [Spring Boot 中文文档](https://www.docs4dev.com/docs/zh/spring-boot/2.1.1.RELEASE/reference)
 
 ### 2. 练习SpringBoot的使用
 
