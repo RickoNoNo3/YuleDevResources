@@ -415,6 +415,12 @@ class MyHomePage extends StatelessWidget {
 
 ### 3. 还要学什么?
 
+**学习路由**:
+
+- [路由](https://juejin.im/post/6875184031953059853)
+
+- [路由堆栈详解](https://juejin.im/post/6872861234367217672)
+
 **常用依赖包**:
 
 - `provider` 状态管理
